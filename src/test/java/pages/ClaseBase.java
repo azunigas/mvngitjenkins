@@ -19,7 +19,7 @@ public class ClaseBase {
 
 	public WebDriver conexionChromeDriver() {
 		// Preparamos la ruta del webdriver
-		String rutaDriver = Paths.get(System.getProperty("user.dir"), "/src/test/resources/Drivers/chromedriver.exe")
+		String rutaDriver = Paths.get(System.getProperty("user.dir"), "/src/test/resources/Drivers/chromedriverLinux.exe")
 				.toString();
 
 		// Configuramos la property con la ruta del driver
